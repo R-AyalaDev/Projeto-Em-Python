@@ -22,11 +22,6 @@ while True:
         dadosGerais.cadastrar(arq, nome, idade, cpf)
 
     elif resposta == 3:
-        dadosGerais.removerTudo
-        interface.cabecalho('DADOS REMOVIDOS COM SUCESSO')
-        print('\033[1;30m')
-
-    elif resposta == 4:
         print('\033[1;31mSaindo do sistema!! Até Logo...\033[m')
         break
 

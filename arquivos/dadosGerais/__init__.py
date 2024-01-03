@@ -66,13 +66,3 @@ def cadastrar(arquivo, nome='desconhecido', idade=0, cpf=0):
             print(f'Novo registro de {nome} adicionado.')
             a.close()
 
-
-def removerTudo(arquivo):
-
-    try:
-        remover = open(arquivo, 'r+', encoding='utf8') #abre o arquivo em modo de leitura e escrita
-        del remover
-    
-    except:
-        print('Erro ao remover os dados do arquivo!')
-
