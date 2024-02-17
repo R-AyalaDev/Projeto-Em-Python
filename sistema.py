@@ -9,7 +9,7 @@ if not dadosGerais.arquivoExiste(arq):
 
 while True:
 
-    resposta = interface.menu(['\033[1;36mVer Pessoas Cadastradas', '\033[1;32mCadastrar Pessoas Novas', '\033[1;34mRemover Dados Existentes', '\033[1;31mSair do Sistema'])
+    resposta = interface.menu(['\033[1;36mVer Pessoas Cadastradas', '\033[1;32mCadastrar Pessoas Novas', '\033[1;31mSair do Sistema'])
 
     if resposta == 1:
         dadosGerais.lerArquivo(arq)
