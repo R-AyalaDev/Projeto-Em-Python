@@ -57,12 +57,13 @@ def leiaCPF(msg):
             return 0
         
         try:
-            if (len(c) != 14) and (c[3] != '.') and (c[7] != '.') and (c[11] != '-'):
+            if (len(c) != 14) or (c[3] != '.') or (c[7] != '.') or (c[11] != '-'):
                 print('\033[1;31mERRO! Digite um CPF válido!\033[1;30m')
-                
+                continue
             
         except:
             print('\033[1;31mERRO! Digite um CPF válido!\033[1;30m')
+            continue
 
         else:
             return c
