@@ -40,6 +40,7 @@ def leiaInt(msg):
         
         except:
             print('\033[1;31mERRO! Digite um número inteiro válido.\033[1;30m')
+            continue
 
         else:
             return n
